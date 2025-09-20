@@ -1,0 +1,33 @@
+/*
+Theme Name: Mouhimen Portfolio
+Theme URI: http://example.com/mouhimen-portfolio
+Author: Your Name
+Author URI: http://example.com
+Description: A responsive WordPress theme for showcasing a portfolio with sections for skills, experience, projects, and contact.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: portfolio, responsive, daisyUI, Tailwind CSS
+*/
+
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+
+
+.navbar {
+  padding: 0rem !important;
+}
+
+.timeline-box {
+  border: var(--border) solid;
+  border-radius: var(--radius-box);
+  border-color: var(--color-base-300);
+  background-color: oklch(0.39 0.09 241.29) !important;
+  padding-block: .5rem;
+  padding-inline: 1rem;
+  font-size: .75rem;
+  box-shadow: 0 1px 2px oklch(0% 0 0 / .05);
+}

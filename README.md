@@ -47,7 +47,7 @@ mouhimen-portfolio
 - Use the contact form to allow visitors to reach out to you directly.
 
 ## Support
-For any issues or questions, please contact [abdalmouhimen@hotmail.com](mailto:abdalmouhimen@hotmail.com). 
+For any issues or questions, please contact [abdalmouhimen.dev@gmail.com](mailto:abdalmouhimen.dev@gmail.com). 
 
 ## License
 This theme is licensed under the MIT License. Feel free to use and modify it as per your needs.

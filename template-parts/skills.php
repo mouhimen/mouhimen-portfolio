@@ -2,7 +2,7 @@
 // Fetch skills posts
 $args = array(
     'post_type' => 'skills',
-    'posts_per_page' => -1,
+    'posts_per_page' => 20,
     'orderby' => 'rand',
 );
 $skills_query = new WP_Query($args);

@@ -1,11 +1,11 @@
 
     <div id="experience" class="experience-section hero  min-h-200 bg-[<?php echo get_theme_mod('mpw_body_color'); ?>] text-gray-600 p-10 border-b-2 border-dashed border-gray-400">
-  <div class="container bg-[<?php echo get_theme_mod('mpw_container_color'); ?>]  h-full mx-30 border  border-gray-600 rounded-2xl ">
-          <div class=" bg-[url('<?php echo get_theme_mod('mpw_bg_experience_image');?>')] bg-[50%] bg-bottom-right bg-no-repeat  h-[90%] bg-size-[300px_auto] mr-10">
+  <div class="container bg-[<?php echo get_theme_mod('mpw_container_color'); ?>]  h-full  border  border-gray-600 rounded-2xl ">
+          <div class=" bg-[url('<?php echo get_theme_mod('mpw_bg_experience_image');?>')] bg-[50%] bg-bottom-right bg-no-repeat  h-[90%] bg-size-[300px_auto] mr-5">
 <h2 class="text-shadow-2xs text-shadow-white text-3xl font-bold text-center my-5">Experience</h2>
-   <div class="container mx-auto px-10 ">
-    <div class="timeline justify-center max-w-200 ">
-       <ul class="timeline timeline-vertical ">
+   <div class="container mx-auto px-5 ">
+    <div class="timeline justify-center max-w-100  sm:max-w-200">
+       <ul class="timeline timeline-vertical lg:min-w-500 md:min-w-200 sm:min-w-150">
         <?php
         $args = array(
             'post_type' => 'experience',

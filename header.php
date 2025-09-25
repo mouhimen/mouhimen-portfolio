@@ -21,7 +21,7 @@
 
   <div class="flex-1 p-4 ">
 <div class="avatar ">
-  <div class="w-24 rounded-full"> 
+  <div class="w-24 rounded-full "> 
     <a href="<?php echo home_url(); ?>">       
       <img
             alt=""

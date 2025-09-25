@@ -5,7 +5,7 @@
             <a href="<?php echo get_theme_mod('mpw_social_facebook'); ?>" class="mx-2">Facebook</a>
             <a href="<?php echo get_theme_mod('mpw_social_twitter'); ?>" class="mx-2">Twitter</a>
             <a href="<?php echo get_theme_mod('mpw_social_linkedin'); ?>" class="mx-2">LinkedIn</a>
-            <a href="<?php echo get_theme_mod('mpw_social_instagram'); ?>" class="mx-2">Instagram</a>
+            <a href="<?php echo get_theme_mod('mpw_social_github'); ?>" class="mx-2">GitHub</a>
         </div>
         <p>&copy; <?php echo date("Y"); ?> Mouhimen Portfolio. All rights reserved.</p>
     </div>

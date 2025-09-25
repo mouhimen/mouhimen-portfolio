@@ -74,6 +74,7 @@ function mouhimen_register_custom_post_types() {
         'exclude_from_search'   => false,
         'publicly_queryable'    => true,
         'capability_type'       => 'post',
+        'show_in_rest'          => true,
     );
 
     register_post_type('skills', $args);
@@ -117,6 +118,7 @@ function mouhimen_register_custom_post_types() {
         'exclude_from_search'   => false,
         'publicly_queryable'    => true,
         'capability_type'       => 'post',
+        'show_in_rest'          => true,
     );
 
    register_post_type('experience', $args);
@@ -160,6 +162,7 @@ function mouhimen_register_custom_post_types() {
         'exclude_from_search'   => false,
         'publicly_queryable'    => true,
         'capability_type'       => 'post',
+        'show_in_rest'          => true,
     );
 
     register_post_type('projects', $args);

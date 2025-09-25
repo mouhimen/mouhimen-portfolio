@@ -1,6 +1,6 @@
-<div class="blog-section  hero min-h-150 bg-[<?php echo get_theme_mod('mpw_body_color'); ?>] text-gray-600 p-10 border-b-2 border-dashed border-gray-400">
+<div id="blog" class="blog-section  hero min-h-150 bg-[<?php echo get_theme_mod('mpw_body_color'); ?>] text-gray-600 p-10 border-b-2 border-dashed border-gray-400">
 <div class="container container pl-5 bg-[<?php echo get_theme_mod('mpw_container_color'); ?>]  h-full mx-30 border  border-gray-600 rounded-2xl px-10"> 
-  <h2 class="text-3xl font-bold text-center mb-6 my-6">Mouhimen Blog</h2>
+  <h2 class="text-shadow-2xs text-shadow-white text-3xl font-bold text-center mb-6 my-6">Mouhimen Blog</h2>
 
     <!-- Category Filter -->
     <div class="mb-6">
@@ -41,7 +41,7 @@
                         </a>
                     <?php endif; ?>
                     <div class="card-body">
-                        <h2 class="card-title text-lg font-semibold">
+                        <h2 class="text-shadow-2xs text-shadow-white card-title text-lg font-semibold">
                             <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
                         </h2>
                         <p class="text-gray-100"><?php the_excerpt(); ?></p>

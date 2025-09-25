@@ -1,8 +1,8 @@
-<div class="projects-section  hero min-h-200 bg-[<?php echo get_theme_mod('mpw_body_color'); ?>] text-gray-600 p-10 border-b-2 border-dashed border-gray-400">
+<div id="projects" class="projects-section  hero min-h-200 bg-[<?php echo get_theme_mod('mpw_body_color'); ?>] text-gray-600 p-10 border-b-2 border-dashed border-gray-400">
       <div class="container pl-5 bg-[<?php echo get_theme_mod('mpw_container_color'); ?>]  h-full mx-30 border  border-gray-600 rounded-2xl ">
     <div class=" bg-[url('<?php echo get_theme_mod('mpw_bg_project_image');?>')] bg-[40%] bg-bottom-left bg-no-repeat h-[95%] bg-size-[400px_auto] ">
 
-        <h2 class="text-3xl font-bold text-center mb-6 my-6">Projects</h2>
+        <h2 class="text-shadow-2xs text-shadow-white text-3xl font-bold text-center mb-6 my-6">Projects</h2>
         <div class="container mx-auto px-10 mt-0" >
         <div class="relative overflow-hidden p-4 rounded-lg">
             <div id="project-carousel" class="flex transition-transform duration-500 ease-linear space-x-4">

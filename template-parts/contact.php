@@ -1,8 +1,8 @@
 <!-- filepath: mouhimen-portfolio/mouhimen-portfolio/template-parts/contact.php -->
-<div id="Contact" class="coutact-section hero min-h-150 bg-[<?php echo get_theme_mod('mpw_body_color'); ?>] text-gray-500 ">
+<div id="contact" class="coutact-section hero min-h-150 bg-[<?php echo get_theme_mod('mpw_body_color'); ?>] text-gray-500 ">
   
     <div class="bg-[url('<?php echo get_theme_mod('mpw_bg_contact_image');?>')] bg-[60%] bg-bottom-right bg-no-repeat w-full h-full bg-size-[400px_auto] mr-10">
-     <h2 class="text-3xl font-bold text-center mb-6 my-4 text-gray-200" >Contact With Me</h2>
+     <h2 class="text-shadow-2xs text-shadow-white text-3xl font-bold text-center mb-6 my-4 text-gray-200" >Contact With Me</h2>
 <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="  max-w-120 bg-white  mx-auto p-4  rounded-lg shadow-md">
     
     <div class="mb-4">

@@ -12,10 +12,27 @@ Tags: portfolio, responsive, daisyUI, Tailwind CSS
 
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+h1, h2 {
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #d60f6c;
 }
 
-
+.site_name {
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #d60f6c;
+  font-size: 1.5rem;
+} 
 
 .navbar {
   padding: 0rem !important;

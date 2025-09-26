@@ -5,7 +5,7 @@
 <h2 class="text-shadow-2xs text-shadow-white text-3xl font-bold text-center my-5">Experience</h2>
    <div class="container mx-auto px-5 ">
     <div class="timeline justify-center max-w-100  sm:max-w-200">
-       <ul class="timeline timeline-vertical lg:min-w-500 md:min-w-200 sm:min-w-150">
+       <ul class="timeline timeline-vertical lg:min-w-200 md:min-w-200 sm:min-w-150">
         <?php
         $args = array(
             'post_type' => 'experience',

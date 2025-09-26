@@ -3,20 +3,20 @@
   <h2 class="text-shadow-2xs text-shadow-white text-3xl font-bold text-center mb-6 my-6">Mouhimen Blog</h2>
 
     <!-- Category Filter -->
-    <div class="mb-6">
+    <!--div class="mb-6">
         <form id="category-filter" method="GET" action="">
             <select name="cat" onchange="this.form.submit()" class="select select-bordered">
-                <option value=""><?php _e('All Categories', 'mouhimen-portfolio'); ?></option>
+                <option value=""><?php// _e('All Categories', 'mouhimen-portfolio'); ?></option>
                 <?php
-                $categories = get_categories();
+                /*$categories = get_categories();
                 foreach ($categories as $category) {
                     $selected = (get_query_var('cat') == $category->term_id) ? 'selected' : '';
                     echo '<option value="' . esc_attr($category->term_id) . '" ' . $selected . '>' . esc_html($category->name) . '</option>';
-                }
+                }*/
                 ?>
             </select>
         </form>
-    </div>
+    </div-->
 
     <!-- Blog Grid -->
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">

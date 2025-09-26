@@ -34,7 +34,8 @@ if ($skills_query->have_posts()) : ?>
              <?php while ($skills_query->have_posts()) : $skills_query->the_post(); ?>
     <div class="aspect-square flex items-center justify-center shadow-lg md:p-2 sm:p-2 lg:p-4 rounded-xl bg-gray-900">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/<?php the_title(); ?>/<?php the_title(); ?>-original.svg" alt="<?php the_title(); ?>" class="w-10 h-auto">
-    </div>
+</div>
+
                 <?php endwhile; ?>
 </div>
 <div >

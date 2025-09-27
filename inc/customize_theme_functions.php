@@ -108,3 +108,12 @@ function mpw_background_customize_register($wp_customize) {
 }
 add_action('customize_register', 'mpw_customize_register');
 add_action('customize_register', 'mpw_background_customize_register');
+
+
+  /*  function add_favicon() {
+        echo '<link rel="icon" href="' . site_icon_url() . '" sizes="32x32" />';
+        echo '<link rel="icon" href="' . site_icon_url() . '" sizes="16x16" />';
+        echo '<link rel="apple-touch-icon" href="' . site_icon_url() . '" />';
+        echo '<link rel="shortcut icon" href="' . site_icon_url() . '" />';
+    }
+    add_action('wp_head', 'add_favicon');*/
